@@ -1,0 +1,27 @@
+{
+  "name": "obm-benchmark-task-builder",
+  "version": "0.1.0",
+  "description": "Guided benchmark task production for OBM-style proposals, skills, verifiers, and delivery packages.",
+  "author": {
+    "name": "ChogeShe",
+    "url": "https://github.com/ChogeShe"
+  },
+  "homepage": "https://github.com/ChogeShe/obm-benchmark-task-builder",
+  "repository": "https://github.com/ChogeShe/obm-benchmark-task-builder",
+  "license": "MIT",
+  "keywords": ["benchmark", "terminal-bench", "programbench", "proposal", "verifier", "skill", "Trae"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "OBM Benchmark Task Builder",
+    "shortDescription": "Design, build, validate, and package benchmark tasks.",
+    "longDescription": "A guided wizard that turns a real work problem, repository, or system into a benchmark proposal and delivery package, with optional Trae execution and humanizer support.",
+    "developerName": "ChogeShe",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Write", "Code", "Validation"],
+    "defaultPrompt": [
+      "Help me design a benchmark task from my work.",
+      "Review this idea and choose the best benchmark and A/B/C type.",
+      "Build and validate the complete benchmark delivery package."
+    ]
+  }
+}

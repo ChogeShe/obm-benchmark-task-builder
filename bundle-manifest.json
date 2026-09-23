@@ -1,0 +1,19 @@
+{
+  "name": "obm-benchmark-task-builder",
+  "version": "0.1.0",
+  "components": [
+    {
+      "name": "benchmark-task-wizard",
+      "path": "skills/benchmark-task-wizard/SKILL.md",
+      "kind": "original"
+    },
+    {
+      "name": "humanizer",
+      "path": "skills/humanizer/SKILL.md",
+      "kind": "vendored",
+      "source": "https://github.com/blader/humanizer",
+      "version": "2.9.1",
+      "license": "MIT"
+    }
+  ]
+}

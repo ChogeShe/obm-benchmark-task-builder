@@ -1,0 +1,4 @@
+interface:
+  display_name: "Benchmark Task Wizard"
+  short_description: "Guide and package benchmark task proposals"
+  default_prompt: "Help me turn a work problem or repository into a validated benchmark delivery package."
