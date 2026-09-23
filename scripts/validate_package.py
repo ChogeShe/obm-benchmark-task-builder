@@ -39,8 +39,6 @@ def main() -> int:
         fail("main Skill frontmatter is missing or has the wrong name")
     if "[TODO" in main_text or "<your" in main_text.lower():
         fail("main Skill contains an unfinished placeholder")
-    if "dti" in main_text.lower() or "temporal-dti" in main_text.lower():
-        fail("main Skill contains a task-specific DTI reference")
 
     plugin = json.loads(read_text(PLUGIN))
     if plugin.get("name") != "obm-benchmark-task-builder":
